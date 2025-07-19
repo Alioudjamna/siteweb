@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: System-ui, Helvetica, sans-serif;  
+}
+
+
+  
+nav{
+    background: #004;
+    height: 120px;
+    display: flex;
+    gap: 270px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: relative;
+    top: 0;
+    padding: 0 0;
+}
+
+.navbar_titre{
+    color: #fff;
+    font-size: 40px;
+    border-top: solid 2px rgba(38, 109, 114);
+    height: 100%;
+    padding: 10px 0;
+}
+aside{
+    font-size: 14px;
+    height: 100%;
+    justify-content: center;
+}
+.jour{
+    margin-top: 50px;
+    color: rgba(38, 109, 114);
+    height:20%;
+    text-align: end;
+}
+.navbar_menu{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+.navbar_links{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar_links:hover{
+    color: #23b315;
+    transition: all 0.3s ease;
+}
+.navbar_item{
+    height: 80px;
+}
+header{
+    background-image: linear-gradient(to right, rgba(38, 109, 114) 5%,  #f4f5c2 70%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #333;
+    padding: 10px 0;
+
+}
+.para{
+    max-width: 710px;
+    justify-items: center;
+    margin: 20px auto;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+footer{
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(38, 109, 114) 5%,  #f4f5c2 70%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #333;
+    height: 100px;
+    display: flex;
+    gap: 340px;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+.col1{
+    text-align: end;
+    padding-right: 20px;
+    border: none;
+}
+
+tr{
+    height: 70px;
+}
+td{
+    border-bottom: 1px solid #666;
+    vertical-align: top; 
+    padding: 10px 0px;
+}
+.aligne{
+    vertical-align: middle; 
+}
+.intro{
+    color: #4a997f;
+    font-size: 17px;
+    font-weight: 500;
+}
+table{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    color: #666;
+    width: 700px;
+    font-size: 13px;
+    border-collapse: collapse;
+}
+
+
+
+
