@@ -75,9 +75,8 @@ header{
 section{
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-size: 11px;
-    margin: auto;
+    font-size: 12px;
+    margin: 12px auto;
     width: 800px;
     gap: 10px;
 }
@@ -99,16 +98,38 @@ footer{
 form{
     display: flex;
     flex-direction: column;
+    padding-top: 10px;
     width: 30%;
+    line-height: 20px;
+    color: #888;
+
 }
 textarea{
-    height: 100px;
+    height: 80px;
     padding: 10px;
-    margin-bottom: 10px;
+}
+.btn{
+    display: flex;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top:5px ;
+    padding: 3px 20px;
+    border-radius: 2px;
+    background: rgb(22, 166, 177);
+    border: rgb(22, 166, 177) solid;
+    color:#fff;
+}
+.button:hover{
+    background: rgb(22, 166, 177);
+    transition: all 0.3s ease;
 }
 .loc{
     color: #888;
-    inset: 0px 20px 0px 10px;
+    inset: 10px 20px 0px 10px;
     width: 70%;
 }
 .liste{
